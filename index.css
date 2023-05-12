@@ -1,0 +1,45 @@
+ body{
+    height: 100vh;
+    background: #000;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+button{
+    padding: 0; 
+    margin: 0;
+    border: transparent;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+div.cursor{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(12, 1, 213);
+    border-radius: 50%;
+    box-shadow: 0 0 40px 0 white;
+}
+
+
+
+
+
+.ilon{
+    width: 5px;
+    height: 5px;
+    background: blue;
+}
